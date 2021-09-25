@@ -1,5 +1,5 @@
-title = 'this is my first task'
-description = "it's a to do list"
+title = input('enter your title: ')
+description = input('enter a description: ')
 todolist = []
 todolist.append({'title': title})
 todolist.append({'description': description})
